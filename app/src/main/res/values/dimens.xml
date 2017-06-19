@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txv_text_dimens">40sp</dimen>
+    <dimen name="list_item_dimens">130dp</dimen>
+    <dimen name="borde_txv">10dp</dimen>
+    <dimen name="txt_txv_I1">20sp</dimen>
+    <dimen name="txt_txv_I2">15sp</dimen>
+    <dimen name="botm_txv_I2">15dp</dimen>
+    <dimen name="height_image_item">297dp</dimen>
+
+
+</resources>

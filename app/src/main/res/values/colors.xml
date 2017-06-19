@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#000000</color>
+    <color name="txt_menu_color">#fafafa</color>
+
+</resources>

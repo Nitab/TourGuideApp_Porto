@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguideapp.MainActivity"
+    android:orientation="vertical">
+
+    <!-- Restaurants category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/restaurantes">
+
+        <TextView
+            android:id="@+id/txvRestaurants"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/restaurante"
+            style="@style/Txv_Menu"/>
+    </FrameLayout>
+
+    <!-- Monuments category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/monumentos">
+
+        <TextView
+            android:id="@+id/txvMonuments"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/monumentos"
+            style="@style/Txv_Menu"
+            />
+    </FrameLayout>
+
+    <!-- Cellar category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/caves">
+
+        <TextView
+            android:id="@+id/txvCaves"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/caves"
+            android:background="?android:attr/selectableItemBackground"
+            style="@style/Txv_Menu"/>
+    </FrameLayout>
+
+    <!-- Gastronomy category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/gastronomia">
+
+        <TextView
+            android:id="@+id/txvGastronomy"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/gastronomia"
+            style="@style/Txv_Menu"/>
+    </FrameLayout>
+
+</LinearLayout>

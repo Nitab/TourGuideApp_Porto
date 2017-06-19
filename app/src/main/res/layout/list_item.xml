@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/primary_color"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/txt_menu_color"
+        />
+
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image_item"
+        android:layout_marginTop="@dimen/borde_txv"
+        />
+
+
+    <TextView
+        android:id="@+id/item_txv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/borde_txv"
+        android:layout_marginEnd="@dimen/borde_txv"
+        android:layout_marginLeft="@dimen/borde_txv"
+        android:layout_marginRight="@dimen/borde_txv"
+        android:layout_marginStart="@dimen/borde_txv"
+        android:layout_marginTop="@dimen/borde_txv"
+        android:textSize="@dimen/txt_txv_I1"
+        android:textColor="@color/txt_menu_color"
+        />
+
+    <TextView
+        android:id="@+id/item_txv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/botm_txv_I2"
+        android:layout_marginEnd="@dimen/borde_txv"
+        android:layout_marginLeft="@dimen/borde_txv"
+        android:layout_marginRight="@dimen/borde_txv"
+        android:layout_marginStart="@dimen/borde_txv"
+        android:layout_marginTop="@dimen/borde_txv"
+        android:textSize="@dimen/txt_txv_I2"
+        android:textColor="@color/txt_menu_color"
+        />
+
+</LinearLayout>
